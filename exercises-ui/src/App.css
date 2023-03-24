@@ -1,0 +1,116 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #FCEDDA;
+  color: blueviolet;
+  margin: 10px;
+  padding: 5px;
+}
+
+.text {
+  color:  #2C5F2D;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.textDiv {
+  border: 3px solid black;
+  width: 75%;
+  position: relative;
+  left: 225px;
+}
+
+table {
+  border: 2px solid black;
+  padding: 100px;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr th {
+  border: 4px solid  #2C5F2D;
+  padding: 5px;
+  color: rgb(68, 68, 68);
+}
+
+tr td {
+  border: 2px solid brown;
+  padding: 5px;
+  color: rgb(68, 68, 68);
+}
+
+/* tr:nth-child(even){background-color: #f2f2f2;} */
+
+tr:hover {background-color: #EE4E34}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #EE4E34;
+  color: white;
+}
+
+input, button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navButton {
+  width: 100px;
+  height: 40px;
+  background-color: #EE4E34;
+  color: #FCEDDA;
+  border-radius: 10px;
+  margin: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.navButton:hover {
+  background-color: #FCEDDA;
+  color: #EE4E34;
+}
+
+.createButton {
+  width: 150px;
+  box-shadow: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footerDiv {
+  width: 100%;
+  height: 35px;
+  background-color: #EE4E34;
+}
+
+.footer {
+  position: relative;
+  top: 7px;
+  color: #FCEDDA;
+}
+
+.createBoxes {
+  border: 2px solid black;
+  height: 25px;
+  margin: 5px;
+}
